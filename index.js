@@ -95,12 +95,9 @@ function wagesEarnedOnDate(datestamp) {
   return wagesEarned
 }
 
-function calculatePayroll(arrayEmployeeRecords) {
-
-  return arrayEmployeeRecords.reduce((total, employee) => total + allWagesFor().call(employee), 0)
-
-
-}
+const calculatePayroll = function (Array) {
+  return Array.reduce((total, employee) => total + allWagesFor.call(employee), 0)
+} 	}
 
 function findEmployeeByFirstName(arrayEmployeeRecords, firstName) {
   return arrayEmployeeRecords.find(hash => hash.firstName === firstName)
