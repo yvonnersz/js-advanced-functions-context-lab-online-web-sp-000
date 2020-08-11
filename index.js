@@ -95,6 +95,10 @@ function wagesEarnedOnDate(datestamp) {
   return wagesEarned
 }
 
+function payrollExpense() {
+  
+}
+
 function findEmployeeByFirstName(arrayEmployeeRecords, firstName) {
   return arrayEmployeeRecords.find(hash => hash.firstName === firstName)
 }
