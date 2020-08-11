@@ -100,7 +100,7 @@ function calculatePayroll(arrayEmployeeRecords) {
 
   let wagesEarned = datesWorked.map(date => wagesEarnedOnDate(date))
 
-  datesWorked.
+  console.log(wagesEarned)
 
 }
 
