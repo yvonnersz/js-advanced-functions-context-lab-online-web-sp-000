@@ -96,7 +96,7 @@ function wagesEarnedOnDate(datestamp) {
 }
 
 function payrollExpense() {
-  
+
 }
 
 function findEmployeeByFirstName(arrayEmployeeRecords, firstName) {
