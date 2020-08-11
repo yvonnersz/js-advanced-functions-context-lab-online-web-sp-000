@@ -95,6 +95,6 @@ function wagesEarnedOnDate(datestamp) {
   return wagesEarned
 }
 
-function calculatePayroll(arrayEmployeeRecords) {
-  return wagesEarnedOnDate.apply(arrayEmployeeRecords, wagesEarnedOnDate)
+function findEmployeeByFirstName(arrayEmployeeRecords, firstName) {
+  
 }
