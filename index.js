@@ -96,9 +96,10 @@ function wagesEarnedOnDate(datestamp) {
 }
 
 function calculatePayroll(arrayEmployeeRecords) {
+
+  let x = arrayEmployeeRecords.map(hash => allWagesFor(hash))
   console.log(arrayEmployeeRecords)
 
-  arrayEmployeeRecords.map(hash => allWagesFor(hash))
 
 }
 
