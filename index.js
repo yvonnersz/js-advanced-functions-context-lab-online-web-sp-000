@@ -96,7 +96,8 @@ function wagesEarnedOnDate(datestamp) {
 }
 
 function calculatePayroll(arrayEmployeeRecords) {
-
+  console.log(arrayEmployeeRecords)
+  console.log(this)
 }
 
 function findEmployeeByFirstName(arrayEmployeeRecords, firstName) {
