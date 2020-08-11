@@ -98,7 +98,7 @@ function wagesEarnedOnDate(datestamp) {
 function calculatePayroll(arrayEmployeeRecords) {
   let datesWorked = arrayEmployeeRecords.timeInEvents.map(hash => hash.date)
 
-  console.log(datesWorked)
+  console.log(arrayEmployeeRecords)
 
 }
 
