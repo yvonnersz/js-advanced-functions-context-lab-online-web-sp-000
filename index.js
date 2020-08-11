@@ -97,7 +97,7 @@ function wagesEarnedOnDate(datestamp) {
 
 function calculatePayroll(arrayEmployeeRecords) {
 
-  return arrayEmployeeRecords.reduce((total, employee) => total += allWagesFor().call(employee), 0)
+  return arrayEmployeeRecords.reduce((total, employee) => total + allWagesFor().call(employee), 0)
 
 
 }
