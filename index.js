@@ -96,8 +96,8 @@ function wagesEarnedOnDate(datestamp) {
 }
 
 function calculatePayroll(arrayEmployeeRecords) {
-  console.log(arrayEmployeeRecords)
-  console.log(this)
+  let datesWorked = bpRecord.timeInEvents.map(hash => hash.date)
+
 }
 
 function findEmployeeByFirstName(arrayEmployeeRecords, firstName) {
